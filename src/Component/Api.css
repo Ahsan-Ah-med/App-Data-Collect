@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:cadetblue;
+    font-family: 'Benne', serif;
+}
+.heading{
+    padding: 20px;
+}
