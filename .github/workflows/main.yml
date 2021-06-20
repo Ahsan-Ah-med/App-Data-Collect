@@ -31,4 +31,4 @@ jobs:
         run: npm install -g surge
        
       - name: Deployment tool surge
-        run: surge ./ http://First-api.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://First-api.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
